@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger king</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"> -->
+    <style>
+       .container{
+           display:flex;
+           flex-flow:row;
+           align-items:flex-start;
+        }
+
+       column-1{
+           display: flex;
+           flex-flow: column;
+           width: 30rem;
+           height: auto;
+           /* background-color: lightcoral; */
+       }
+
+       .imageb{
+           width: 30rem;
+           height:25rem;
+           display: flex;
+           flex-flow: row;
+           margin-left: 20px;
+       }
+
+       .column-2{
+           width:18rem;
+           height:25rem;
+           background-color:#f6a40a;
+       }
+
+       .column-3{
+           width: 10rem;
+           background-color:tomato;
+           height:25rem;
+       }
+
+       .price{
+           text-align: center;
+           position: relative;
+           padding-top:40px;
+           font-size: 30px;
+       }
+
+       .name{
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 2rem;
+            
+       }
+       .type_of_food{
+           float: right;
+           margin-right: 8px;
+           margin-bottom: 3px;
+           background-color:orangered;
+        }
+
+       .hungry{
+           text-align: center;
+           margin-top:20px;
+           font-family: cursive;
+           font-size: 30px;
+           color: rgb(123, 255, 0);
+        
+       }
+
+       .icon2,.icon3{
+           /* margin-top: 20rem; */
+           margin-left: 1rem;
+       }
+       
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+            <div class="column-1">
+                <img src="https://mms.businesswire.com/media/20151222005039/en/501777/5/Flame_Grilled_Chicken_Burger.jpg" alt="image" class="imageb">
+            </div>
+            <div class="column-2">
+                <h2 class="name">Burger<br>King<button class="type_of_food">vegetarian</button><button class="type_of_food">Non-vegetrian</button></h2>
+                😃 👌
+                
+                <p><h3 class="hungry">Hungry?<br>We got<br>you</h3></p><br><br>
+                
+                
+            
+                    <i class="icon1">🍔295 KCAL</i>
+                    <i class="icon2">⏱30 MIN</i>
+                    <i class="icon3">★ 4.8 ratings</i>
+    
+            
+            </div>
+
+            <div class="column-3">
+                <p class="price">
+                    <br>
+                    <br>
+                    <br>
+                    160RS
+                </p>
+            </div>
+    </div>
+</body>
+</html>
